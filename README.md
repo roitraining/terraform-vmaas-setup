@@ -16,16 +16,20 @@ It creates 4 firewall rules for the vmaas network already created in those proje
 
 git clone https://github.com/roitraining/terraform-vmaas-setup
 
-2. Then change to the resulting folder
+2. Then change to the resulting folder:
+
 cd ~/terraform-vmaas-setup
 
 3. Then run: 
+
 terraform init
 
 4. Then run: 
+
 terraform plan
 
 5. Finally, run: 
+
 terraform apply -auto-approve
 
 You will be prompted for the Project ID. Enter either pso-vmaas-1 or pso-vmaas-2 depending on which project your are initiallizing. This script will only work for projects with the vmaas network already created. 
